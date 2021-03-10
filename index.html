@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한성 백제 박물관</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="shortcut icon" href="img/favicon (1).ico" type="image/x-icon">
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/drawer.js"></script>
+    <script src="js/mainSlide.js"></script>
+    <script>
+        alert("모바일 해상도(360*670)에 최적화 되어있는 페이지입니다.")
+    </script>
+
+
+</head>
+
+<body>
+    <div id="wrap">
+        <!--하단 고정 메뉴바-->
+        <div class="bottom_menu">
+            <div class="shortcut" onclick="alert('기능 준비중입니다')"><a href="#"><img src="img/icon03.png" alt="shortcut01"></a></div>
+            <div class="shortcut"><a href="sub01.html"><img src="img/icon00.png" alt="shortcut02"></a></div>
+            <div class="shortcut"><a href="sub02.html"><img src="img/icon04.png" alt="shortcut03"></a></div>
+            <div class="shortcut"><a href="#header"><img src="img/icon02.png" alt="shortcut04"></a></div>
+        </div>
+        <!--//하단 고정 메뉴바-->
+        <!--오른쪽 상단 메뉴-->
+        <nav id="gnb">
+            <button class="close">X</button>
+            <ul class="main_menu">
+                <li>
+                    <div class="user">
+                        <div class="user_img"></div>
+                        <div class="user_info">로그인해주세요</div>
+                    </div>
+                </li>
+                <li class="mainList">
+                    <a href="#">박물관소개</a>
+                    <ul class="sub_menu">
+                        <li><a href="#">인사말</a></li>
+                        <li><a href="#">배경 및 연혁</a></li>
+                        <li><a href="#">주요시설</a></li>
+                    </ul>
+                </li>
+                <li class="mainList">
+                    <a href="#">이용안내</a>
+                    <ul class="sub_menu">
+                        <li><a href="#">오시는길</a></li>
+                        <li><a href="#">층별안내</a></li>
+                        <li><a href="#">주차안내</a></li>
+                    </ul>
+                </li>
+                <li class="mainList">
+                    <a href="#">전시안내</a>
+                    <ul class="sub_menu">
+                        <li><a href="#">상설전시</a></li>
+                        <li><a href="#">특별전시</a></li>
+                        <li><a href="#">테마전시</a></li>
+                    </ul>
+                </li>
+                <li class="mainList">
+                    <a href="#">열린마당</a>
+                    <ul class="sub_menu">
+                        <li><a href="">공지사항</a></li>
+                        <li><a href="">고객의 소리함</a></li>
+                        <li><a href="">자주하는 질문</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <!--//오른쪽 상단 메뉴-->
+        <!--header-->
+        <header id="header">
+            <h1><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+            <!--햄버거 메뉴 아이콘-->
+            <nav class="menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </nav>
+            <!--//햄버거 메뉴 아이콘-->
+        </header>
+        <!--//header-->
+        
+        <!--section-->
+        <section class="section">
+            <!--메인 이미지 슬라이더-->
+            <section class="section01">
+                <ul>
+                    <li><img src="img/main01.png" alt="main01"></li>
+                    <li><img src="img/main02.png" alt="main02"></li>
+                    <li><img src="img/main03.png" alt="main03"></li>
+                </ul>
+            </section>
+            <!--//메인 이미지 슬라이더-->
+            <section class="section02">  <div class="swiper-container swiper-container-initialized swiper-container-horizontal">
+                <!--전시 내용 슬라이더-->
+                <div class="swiper-wrapper" id="swiper-wrapper-f80e9caeb19ee8b3" aria-live="polite">
+                  <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 10" style="width: 1509px; margin-right: 30px;">
+                    <section class="section_swiper">
+                      <h3>현재 전시 중</h3>
+                      <article class="icon_box">
+                          <div class="img_box"><a href="#"><img src="img/con01.png" alt="box_img"></a></div>
+                          <div class="img_info"><a href="#">
+                              <p>백제의 기억</p>
+                              <br>
+                              <p>10/01~10/27</p>
+                          </a></div>
+                      </article>
+                      <article class="icon_box">
+                          <div class="img_box"><a href="#"><img src="img/con02.png" alt="box_img"></a></div>
+                          <div class="img_info"><a href="#">
+                            <p>백제시대 옷</p>
+                            <br>
+                            <p>10/01~10/29</p>
+                          </a></div>
+                      </article>
+                      <article class="icon_box">
+                          <div class="img_box"><a href="#"><img src="img/con03.png" alt="box_img"></a></div>
+                          <div class="img_info"><a href="#">
+                            <p>발굴, 그 후</p>
+                            <br>
+                            <p>10/01~10/16</p>
+                          </a>
+                        </div>
+                      </article>
+                  </section>
+                  </div>
+                  <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 10" style="width: 1509px; margin-right: 30px;"><section class="section_swiper">
+                    <h3>특별 전시</h3>
+                    <article class="icon_box">
+                        <div class="img_box"><a href="#"><img src="img/con04.JPG" alt="box_img"></a></div>
+                        <div class="img_info"><a href="#">
+                            <p>백 자</p>
+                            <br>
+                            <p>10/17~10/30</p>
+                        </a></div>
+                    </article>
+                    <article class="icon_box">
+                        <div class="img_box"><a href="#"><img src="img/con05.JPG" alt="box_img"></a></div>
+                        <div class="img_info"><a href="#">
+                            <p>고구려...</p>
+                            <br>
+                            <p>10/05~10/18</p>
+                        </a></div>
+                    </article>
+                    <article class="icon_box">
+                        <div class="img_box"><a href="#"><img src="img/con6.JPG" alt="box_img"></a></div>
+                        <div class="img_info"><a href="#">
+                            <p>백제의 산성</p>
+                            <br>
+                            <p>10/20~10/30</p>
+                        </a></div>
+                    </article>
+                </section>
+                </div>
+          
+                  <!-- <div class="swiper-slide" role="group" aria-label="3 / 10" style="width: 1509px; margin-right: 30px;">Slide 3</div>
+                  <div class="swiper-slide" role="group" aria-label="4 / 10" style="width: 1509px; margin-right: 30px;">Slide 4</div>
+                  <div class="swiper-slide" role="group" aria-label="5 / 10" style="width: 1509px; margin-right: 30px;">Slide 5</div>
+                  <div class="swiper-slide" role="group" aria-label="6 / 10" style="width: 1509px; margin-right: 30px;">Slide 6</div>
+                  <div class="swiper-slide" role="group" aria-label="7 / 10" style="width: 1509px; margin-right: 30px;">Slide 7</div>
+                  <div class="swiper-slide" role="group" aria-label="8 / 10" style="width: 1509px; margin-right: 30px;">Slide 8</div>
+                  <div class="swiper-slide" role="group" aria-label="9 / 10" style="width: 1509px; margin-right: 30px;">Slide 9</div>
+                  <div class="swiper-slide" role="group" aria-label="10 / 10" style="width: 1509px; margin-right: 30px;">Slide 10</div> -->
+                </div>
+                <!--//전시 내용 슬라이더-->
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 7"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 8"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 9"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 10"></span></div>
+              <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+            
+              <!-- Swiper JS -->
+              <script src="js/swiper-bundle.min.js"></script>
+            
+              <!-- Initialize Swiper -->
+              <script>
+                var swiper = new Swiper('.swiper-container', {
+                  spaceBetween: 30,
+                  pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                  },
+                });
+              </script>
+            
+            
+            </section>
+            <!--공지사항-->
+            <section class="section03">
+                <table>
+                    <h3>공지사항</h3>
+                    <tr>
+                        <td>홈페이지 리뉴얼에 대한 공지</td>
+                        <td>2020.10.27</td>
+                    </tr>
+                    <tr>
+                        <td>홈페이지 리뉴얼에 대한 공지</td>
+                        <td>2020.10.27</td>
+                    </tr>
+                    <tr>
+                        <td>홈페이지 리뉴얼에 대한 공지</td>
+                        <td>2020.10.27</td>
+                    </tr>
+                    <tr>
+                        <td>홈페이지 리뉴얼에 대한 공지</td>
+                        <td>2020.10.27</td>
+                    </tr>
+                </table>
+            </section>
+            <!--//공지사항-->
+        </section>
+        <!--footer-->
+        <footer id="footer">
+
+            <address>
+                05540) 서울특별시 송파구 위례성대로 71 한성백제박물관 <br>
+                TEL : 02-2152-5800 <br>
+                FAX : 02-2152-5879 <br>
+                Copyrightⓒ2011 By SEOUL BAEKJE MUSEUM, ALL Right Reserved
+            </address>
+            <img src="img/logo(black).png" alt="logo_b">
+            <img src="img/f_logo.png" alt="f_logo">
+        </footer>
+        <!--//footer-->
+    </div>
+
+
+
+</body>
+
+</html>

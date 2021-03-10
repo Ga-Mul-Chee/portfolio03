@@ -1,0 +1,88 @@
+/*전체초기화*/
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+h1,h2,h3,h4,h5{font-family: 'Yeon Sung', cursive;}
+body{font-family: 'Noto Sans KR', sans-serif;}
+#wrap{width: 100%; min-width: 360px; max-width: 768px; margin: 0 auto;}
+/*//전체초기화*/
+
+/*하단 고정 메뉴*/
+.bottom_menu{width: inherit; min-width: inherit; max-width: inherit; height: 150px; background-color: rgba(255, 255, 255, 0.9); position: fixed; bottom: 0; z-index: 9999;}
+.bottom_menu .shortcut{float: left; width: 25%; height: 100px; margin-top: 20px;}
+/*//하단 고정 메뉴*/
+
+/*오른쪽 상단 메뉴*/
+#gnb{width: 60%; height: 100%; background-color: rgba(0, 0, 0, 0.8); position: fixed; top: 0; right: -100%; transition: all 0.5s ease-in-out; z-index: 9999;}
+#gnb .close{position: absolute; right: 10px; top: 10px; width: 48px; height: 48px; color: #fff; font-size: 40px; border: 0; background-color: transparent; font-weight: bolder;}
+.user{ position: absolute; top: -60%; left: 28%; text-align: center;}
+.user_img{width: 100px; height: 100px;background-color: skyblue; border-radius: 90%; padding: 5%;}
+.user_info{background-color: rgba(100, 100, 100, 0.7); margin-top: 15%; font-weight: bolder; color: #fff;}
+#gnb li.mainList>a:hover{color: #ae703b;}
+#gnb ul.main_menu{position: absolute; bottom: 0; width: 100%;}
+#gnb ul.main_menu>li.mainList>a{border-top: 1px solid #fff; border-bottom: 1px solid #fff;}
+#gnb ul.main_menu a{color: #fff; display: block; width: 100%; height: 48px; padding: 20px;}
+#gnb ul.main_menu ul.sub_menu{display: none; border-bottom: 1px solid #fff;}
+#gub ul.main_menu ul.sub_menu a{background-color: rgba(255, 255, 255, 0.3);}
+#gnb ul.main_menu ul.sub_menu a::before{content:" - ";} 
+#gnb ul.main_menu ul.sub_menu a:hover{background-color: #ae703b;}
+/*//오른쪽 상단 메뉴*/
+
+/*header*/
+#header{width: 100%; height: 60px; position: relative;}
+#header h1{line-height: 60px; float: left; padding: 10px;}
+/*//header*/
+
+/*햄버거 메뉴*/
+#header .menu{width: 50px; height: 65px; float: right; line-height: 60px; position: absolute; top: 50%; right: 30px; transform: translateY(-50%);}
+#header .menu .line{width: 60px; height: 5px; background-color: #ae703b; margin: 13px 0; border-radius: 30%;}
+#header .menu .line:first-child{width: 70%;}
+#header .menu .line:last-child{width: 90%;}
+/*//햄버거 메뉴*/
+
+.section{width: 100%;}
+
+/*메인 이미지 슬라이드*/
+.section01{height: 50vh; position: relative;}
+.section01 img{position: absolute; top: 0; left: 0;}
+/*//메인 이미지 슬라이드*/
+
+/*전시 내용 슬라이더*/
+.section02{height: 320px; padding-top: 20px;} 
+.section02 h3{color: #ae703b;}
+.section02 .section_swiper .icon_box{ width: 33.3%; height: 270px; float: left;}
+.section02 .icon_box .img_box{background-color: #007aff; width: 80%; height: 50%; margin: 10% 10%; box-sizing: border-box; border-radius: 50%;}
+.section02 .icon_box .img_box img{width: 100%; height: 100%; box-sizing: border-box; border-radius: 50%;}
+.section02 .icon_box .img_info{ width: 80%; height: 30%; margin: 10% 10%; box-sizing: border-box;}
+.section02 .icon_box .img_info p{font-size: 16px; color: #5b392f;}
+.section02 .icon_box .img_info p:first-child{font-weight: bolder;}
+.slide_nav li{width: 10px; height: 10px; border-radius: 90%; background-color: rgba(0, 0, 0, 1); position: absolute; bottom: 0;}
+/*//전시 내용 슬라이더*/
+
+/*공지사항*/
+.section03{ padding-bottom: 10%;}
+.section03 h3{text-indent: 5%; color: #ae703b;}
+.section03 table{width: 100%; border-top: 1px solid #ae703b; border-bottom: 1px solid #ae703b; margin: 10% 0; border-collapse: collapse;}
+.section03 table tr:nth-child(2n){background-color: rgba(174, 112, 59, 0.6);}
+.section03 table tr td:first-child{text-indent: 5%; display: block; margin: 8% 0;}
+.section03 table tr td:nth-child(2n){text-align: center;}
+/*//공지사항*/
+
+/*footer*/
+#footer{ height: 200px; width: 100%; padding-bottom: 50%; border-top: 1px solid #666;}
+#footer address{font-size: 14px; color: #666; padding: 10px;}
+#footer img{width: 150px; height: 50px; padding: 10px;}
+/*//footer*/
+
+/*swiper*/
+/* 
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  } */
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
